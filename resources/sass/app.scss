@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css';
+
+.vgt-left-align{
+    vertical-align: middle !Important;
+}
+.container{
+    max-width: 1300px;
+}
+
+/** Overrides */
+.vgt-global-search__input{
+    flex-grow: 1 !important;
+}
+
+body{
+    background-color: #343A40;
+}
