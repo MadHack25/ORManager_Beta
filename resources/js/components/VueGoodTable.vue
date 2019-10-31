@@ -95,6 +95,7 @@
               </div>
             </div>
           </sweet-modal>
+          
   </div>
     <template slot="table-row" slot-scope="props">
 
