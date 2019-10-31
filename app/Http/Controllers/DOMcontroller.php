@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use ErrorException;
 use Exception;
-use Illuminate\Http\Request;
 use FastSimpleHTMLDom\Document as DOM;
 use SoapClient;
 
@@ -119,9 +118,6 @@ class DOMcontroller extends Controller
 
         /** Find All <span id="price">  */
         $tr_prices = $dom->find('span[id=price]');
-
-        /** if We`re Checking TakeOut */
-        $isTakeoutTab = false;
 
         if($tr_prices->innertext == ""){
             $tr_prices = $dom->find('td[style=\'color:#009900;\']');
