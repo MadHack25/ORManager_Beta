@@ -1,3 +1,25 @@
+Ordering Registrator Beta Version , After which it became Ordering Manager
+
+.Backend: Laravel 6.2
+.FrontEnd: VueJS 2
+
+* Web Application saves information of Ordered items from web (name , url , weight, price ect...) by User. 
+  Each Order Information has to be enterred manually.
+* Thanks to Vuejs2 Javascript framework it Updates Records Instantly. Using VueGoodTable Datatable - VueJS Package
+  All records are pre-organized with Javascript while they are Actually saved in Database.
+* User-Friendly interface. Every Edit/Delete/Update is done without Whole Page Refresh
+* IP Filter Middleware helps user not To Login Each time on Application and stay Authorised on Custom IP
+* Backup DB function - for backing up Database (security)
+* 2 Modes: IP Auth & Public
+  IP Auth Mode Allows user only if hes IP is same as Authorisation IP written in .env file
+  Public Mode  -  Access From Every Location
+* Custom Artisan Command for Switching Between Modes
+
+This web application is Made for accounting Packages from internet (tools, computer parts, ect...)
+For information Fast access and Mobility
+
+GE ==============
+
 Ordering Registrator ბეტა ვერსია , რომლის შემდეგაც ის გახდა Ordering Manager
 
 .Backend: Laravel 6.2
